@@ -18,8 +18,9 @@ body
   .jumbotron 
   {
     text-align: center;
-    background-color: transparent;
-    color: black;
+    background: rgb(0,109,150);
+    background: linear-gradient(90deg, rgba(0,109,150,1) 42%, rgba(180,237,255,1) 100%);
+    color: white;
     border-radius: 0;
     border-bottom: 5px solid black;
   }
@@ -63,7 +64,7 @@ body
   
   .future 
   {
-    background-color: #77dd77;
+    background-color: #02be76;
     color: white;
   }
   

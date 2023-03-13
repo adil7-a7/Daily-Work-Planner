@@ -8,20 +8,12 @@ var futureEl = $(".future");
 var saveBtnEl = $(".save-btn");
 var currentDayEl = $("#currentDay");
 var containerEl = $(".container");
-var clearButton = $("<button>");
-var clearMessage = $("<p>");
+
 
 //DEFINING TIME USING MOMENT.JS THEN FORMATTING IT
 var today = moment();
 $(currentDayEl).text(today.format("dddd, MMMM Do"));
 
-$("header").append(clearButton)
-$(clearButton).text("Clear Schedule")
-$(clearButton).on("click", function()
-{
-  localStorage.clear();
-  location.reload();
-})
 
 // CREATES BOOTSTRAP ROW
 var row = $("<div>");
